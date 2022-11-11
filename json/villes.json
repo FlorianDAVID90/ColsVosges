@@ -1,0 +1,14 @@
+[
+  {"id": 1, "nom": "Plancher-les-Mines", "code_postal": 70290},
+  {"id": 2, "nom": "Gérardmer", "code_postal": 88400},
+  {"id": 3, "nom": "La Bresse", "code_postal": 88250},
+  {"id": 4, "nom": "Ventron", "code_postal": 88310},
+  {"id": 5, "nom": "Bussang", "code_postal": 88540},
+  {"id": 6, "nom": "Le Thillot", "code_postal": 88160},
+  {"id": 7, "nom": "Remiremont", "code_postal": 88200},
+  {"id": 8, "nom": "Cornimont", "code_postal": 88310},
+  {"id": 9, "nom": "Saint-Maurice-sur-Moselle", "code_postal": 88560},
+  {"id": 10, "nom": "Belfahy", "code_postal": 70290},
+  {"id": 11, "nom": "Lepuix", "code_postal": 90200},
+  {"id": 12, "nom": "Oderen", "code_postal": 68610}
+]

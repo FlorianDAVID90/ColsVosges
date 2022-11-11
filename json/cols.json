@@ -1,0 +1,14 @@
+[
+  {"id": 1, "name": "La Super Planche des Belles Filles", "id_villes": [1]},
+  {"id": 2, "name": "Ballon d'Alsace", "id_villes": []},
+  {"id": 3, "name": "Grand Ballon", "id_villes": []},
+  {"id": 4, "name": "Ballon de Servance", "id_villes": []},
+  {"id": 5, "name": "Col de Grosse Pierre", "id_villes": []},
+  {"id": 6, "name": "Col de la Croix des Moinats", "id_villes": []},
+  {"id": 7, "name": "Col des Croix", "id_villes": []},
+  {"id": 8, "name": "Col du Hunsdruck", "id_villes": []},
+  {"id": 9, "name": "Col d'Oderen", "id_villes": []},
+  {"id": 10, "name": "Col de Bramont", "id_villes": []},
+  {"id": 11, "name": "Col de la Vierge", "id_villes": []},
+  {"id": 12, "name": "Col du Page", "id_villes": []}
+]

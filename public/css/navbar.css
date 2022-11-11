@@ -1,0 +1,14 @@
+nav {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    width: 100%;
+    background-color: rgb(46,164,189);
+    align-items: center;
+}
+
+.image_nav {
+    width: 40px;
+    height: auto;
+}

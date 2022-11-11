@@ -11,7 +11,7 @@ app.set('views', `${__dirname}/views/`)
 app.set('view engine','pug');
 
 app.get('/', (req, res) => {
-    res.send("APP DEMO OK !")
+    res.render('home.pug');
 })
 
 const port = process.env.PORT || 2023;

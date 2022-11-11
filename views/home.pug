@@ -1,0 +1,20 @@
+doctype html
+html(lang=fr)
+    head
+        meta(CHARSET="UFT-8")
+        meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
+        link(rel="shortcut icon" href="/images/favicon.ico")
+        title Cols Vosgiens
+        block styles
+            //link(rel="stylesheet" href="/css/bootstrap.css")
+            link(rel="stylesheet" href="/css/global_styles.css")
+            link(rel="stylesheet" href="/css/navbar.css")
+
+    body
+        include includes/nav.pug
+        br
+
+        div(class="container")
+            block body
+                h2(style="text-align: center;") Cols Vosgiens
+                hr
