@@ -1,0 +1,9 @@
+extends home
+block title
+    title= versan.nom_col
+block body
+    h2= versan.nom_col + " depuis " + versan.nom_ville
+    a
+        if(versan.img_versan !== null)
+            img(src=`/images/profiles/${versan.img_versan}` width="400")
+        h3= versan.nb_km + "km à " + versan.pourcentage + "%"

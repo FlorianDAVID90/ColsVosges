@@ -2,3 +2,11 @@ nav
     div(class="logo_nav")
         a(href="/")
             img(class="image_nav" src="/images/mdv-logo.png")
+
+    ul
+        li
+            a(href="") Départements
+            ul.clearfix
+                each dep in departements
+                    li
+                        a(href=`/cols/cols_dept${dep.id}`)= dep.nom + " (" + dep.id + ")"

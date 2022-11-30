@@ -1,0 +1,20 @@
+extends home
+block title
+    title Cols
+
+block body
+    h2= "Cols dans le département " + id_dept
+    hr
+    table
+        thead
+            tr
+                th Col
+                th Ville départ
+                th Profil
+        tbody
+            each col in cols
+                tr
+                    td
+                        a(href=`/cols/versan${col.id_versan}`)= col.nom_col
+                    td= "Depuis " + col.nom_ville
+                    td= col.nb_km + "km à " + col.pourcentage + "%"
