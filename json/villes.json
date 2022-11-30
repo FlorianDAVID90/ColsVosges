@@ -10,5 +10,7 @@
   {"id": 9, "nom": "Saint-Maurice-sur-Moselle", "code_postal": 88560},
   {"id": 10, "nom": "Belfahy", "code_postal": 70290},
   {"id": 11, "nom": "Lepuix", "code_postal": 90200},
-  {"id": 12, "nom": "Oderen", "code_postal": 68610}
+  {"id": 12, "nom": "Oderen", "code_postal": 68610},
+  {"id": 13, "nom": "Sewen", "code_postal": 68290},
+  {"id": 14, "nom": "Haut-du-Them-Château-Lambert", "code_postal": 70440}
 ]

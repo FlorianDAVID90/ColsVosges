@@ -1,14 +1,111 @@
 [
-  {"id": 1, "name": "La Super Planche des Belles Filles", "id_villes": [1]},
-  {"id": 2, "name": "Ballon d'Alsace", "id_villes": []},
-  {"id": 3, "name": "Grand Ballon", "id_villes": []},
-  {"id": 4, "name": "Ballon de Servance", "id_villes": []},
-  {"id": 5, "name": "Col de Grosse Pierre", "id_villes": []},
-  {"id": 6, "name": "Col de la Croix des Moinats", "id_villes": []},
-  {"id": 7, "name": "Col des Croix", "id_villes": []},
-  {"id": 8, "name": "Col du Hunsdruck", "id_villes": []},
-  {"id": 9, "name": "Col d'Oderen", "id_villes": []},
-  {"id": 10, "name": "Col de Bramont", "id_villes": []},
-  {"id": 11, "name": "Col de la Vierge", "id_villes": []},
-  {"id": 12, "name": "Col du Page", "id_villes": []}
+  {
+    "id": 1,
+    "name": "La Super Planche des Belles Filles",
+    "versans": [
+      {"id_versan": 1,"nb_km": 7, "pourcentage": 8.7, "id_ville": 1}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Ballon d'Alsace",
+    "versans": [
+      {"id_versan": 1,"nb_km": 8.7, "pourcentage": 6.9, "id_ville": 9},
+      {"id_versan": 2,"nb_km": 11.5, "pourcentage": 5.3, "id_ville": 11},
+      {"id_versan": 3,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Grand Ballon",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 2,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 3,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 4,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 5,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 6,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Ballon de Servance",
+    "versans": [
+      {"id_versan": 1,"nb_km": 6.2, "pourcentage": 7.6, "id_ville": 1},
+      {"id_versan": 2,"nb_km": 10.2, "pourcentage": 4.7, "id_ville": 6},
+      {"id_versan": 3,"nb_km": 14.5, "pourcentage": 4.6, "id_ville": 6},
+      {"id_versan": 4,"nb_km": 11, "pourcentage": 5.8, "id_ville": 14}
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Col de Grosse Pierre",
+    "versans": []
+  },
+  {
+    "id": 6,
+    "name": "Col de la Croix des Moinats",
+    "versans": [
+      {"id_versan": 1,"nb_km": 7.6, "pourcentage": 6, "id_ville": 13},
+      {"id_versan": 2,"nb_km": 6.2, "pourcentage": 4, "id_ville": 13},
+      {"id_versan": 3,"nb_km": 5.2, "pourcentage": 7, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Col des Croix",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 2,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Col du Hunsdruck",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Col d'Oderen",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Col de Bramont",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Col de la Vierge",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Col du Page",
+    "versans": [
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13},
+      {"id_versan": 1,"nb_km": 11, "pourcentage": 5.8, "id_ville": 13}
+    ]
+  },
+  {
+    "id" : 13,
+    "name": "Montée de Chauveroche",
+    "versans": [
+      {"id_versan": 1, "nb_km": 2.9, "pourcentage": 10.7, "id_ville": 11}
+    ]
+  }
 ]
