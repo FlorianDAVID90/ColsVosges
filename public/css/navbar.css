@@ -4,11 +4,89 @@ nav {
     flex-direction: row;
 
     width: 100%;
-    background-color: rgb(46,164,189);
+    background-color: var(--sky-blue);
     align-items: center;
+
+    font-family: Forte;
 }
 
 .image_nav {
-    width: 40px;
-    height: auto;
+    height: 50px;
+    width: auto;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0
+}
+
+.item {
+    width: auto;
+}
+
+li a {
+    background: var(--sky-blue);
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    width: auto;
+    padding: 10px 20px;
+    margin-left: 10px;
+}
+
+li .swagger {
+    background: var(--sky-blue);
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    width: auto;
+    padding: 10px 20px;
+}
+
+li a:hover, li a:focus {
+    color: var(--sky-blue);
+    text-decoration: none;
+    background-color: white;
+}
+
+nav > ul > li {
+    float: left
+}
+
+nav > ul:after {
+    display: block;
+    content: '';
+    clear: both
+}
+
+
+nav > ul ul {
+    position: absolute;
+    visibility: hidden
+}
+
+nav ul li {
+    display: inline-block;
+    max-width: 400px;
+}
+
+nav ul li:hover > ul {
+    visibility: visible
+}
+
+nav ul ul li {
+    position: relative
+}
+
+nav ul ul ul {
+    position: absolute;
+    top: 0;
+    left: 100%
+}
+
+.clearfix::before, .clearfix::after {
+    display: table;
+    content: " ";
 }

@@ -3,6 +3,19 @@
 }
 
 body {
+    background-color: snow;
+    font-family: "Tw Cen MT";
     margin: 0;
-    font-family: Calibri;
+}
+
+body *:not(nav) {
+    margin: 2.5px;
+}
+
+h2 {
+    text-align: center;
+}
+
+table {
+    text-align: center;
 }
